@@ -31,4 +31,4 @@ li a:hover:not(.active){
 }
 @media screen and (max-width: 600px) {
     #navbar li.right, 
-    #navbar li {float: none;}
+    #navbar li {float: none;}}
