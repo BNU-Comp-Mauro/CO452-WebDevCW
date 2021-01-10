@@ -70,14 +70,13 @@ li a:hover:not(.active){
 .container{
     position: relative;
     width: 50%;
+    left: 25%;
 }
-  
 .image{
     display: block;
     width: 100%;
     height: auto;
 }
-  
 .overlay{
     position: absolute;
     top: 0;
@@ -90,11 +89,9 @@ li a:hover:not(.active){
     transition: .5s ease;
     background-color: #2c2828;
 }
-  
 .container:hover .overlay{
     opacity: 0.8;
 }
-  
 .text{
     color: white;
     font-size: 20px;
