@@ -66,16 +66,18 @@ li a:hover:not(.active){
 }
 .albump{
     text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
 }
 .container{
     position: relative;
-    width: 50%;
+    width: 350px;
     left: 25%;
 }
 .image{
     display: block;
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 350px;
 }
 .overlay{
     position: absolute;
