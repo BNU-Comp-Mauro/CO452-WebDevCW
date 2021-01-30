@@ -45,8 +45,12 @@ li a:hover:not(.active){
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
-img {vertical-align: middle;}
-
+img {vertical-align: middle;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
