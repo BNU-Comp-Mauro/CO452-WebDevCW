@@ -42,18 +42,25 @@ li a:hover:not(.active){
     #navbar li.right, 
     #navbar li {float: none;}
 }
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;
-}
 #title{
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: #4a0a5a;
+}
+* {box-sizing: border-box;}
+body {
+  font-family: Verdana, sans-serif;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  height: 500px;
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 90%;
   position: relative;
   margin: auto;
 }
@@ -90,15 +97,15 @@ img {vertical-align: middle;
 }
 
 .active {
-  background-color: #717171;
+  background-color: #4a0a5a;
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
