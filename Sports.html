@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="mauro.jpg" type="image/png" sizes="16x16">
+    <link rel="icon" href="imgs/icon.jpg" type="image/png" sizes="16x16">
     <title>More-o</title>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBFvZotuy0eXEeLNhH-Vz9QupNq1wFdLE&callback=initMap&libraries=&v=weekly"
@@ -32,15 +32,15 @@
                     <script>
                         function initMap() {
                             // The location of Los Angeles
-                            var losangeles = { lat: 34.052235, lng: -118.243683 };
+                            const losangeles = { lat: 34.052235, lng: -118.243683 };
 
                             // The map, centered in Los Angeles
-                            var map = new google.maps.Map(document.getElementById("map"), {
+                            const map = new google.maps.Map(document.getElementById("map"), {
                                 zoom: 11,
                                 center: losangeles,
                             });
                             // The marker, positioned at Maidenhead
-                            var marker = new google.maps.Marker({
+                            const marker = new google.maps.Marker({
                                 position: losangeles,
                                 map: map,
                             });
